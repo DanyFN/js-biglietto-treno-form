@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+  </head>
+  <body>
+
+    <main>
+      <!-- SEZIONE TITOLO -->
+      <section class="bg-pink">
+        <h1>Calcola il prezzo del tuo biglietto</h1>
+
+
+      <!-- SEZIONE DATI -->
+
+        <div class="dati">
+          <div class="float">
+            <label>Nome Cognome</label>
+            <input id="form-nome" type="text">
+          </div>
+
+          <div class="float">
+            <label>Km da percorrere</label>
+            <input id="form-km" type="text">
+          </div>
+
+          <div class="float">
+            <label>Fascia d'età</label>
+            <select id="form-eta">
+              <option value="aggiorenne">Maggiorenne</option>
+              <option value="minorenne">Minorenne</option>
+              <option value="over">Over65</option>
+            </select>
+
+          </div>
+
+
+          <!-- BOTTONI -->
+          <div class="bottoni">
+            <button id="form-genera" type="button" name="button"><strong>Genera</strong></button>
+            <button id="form-annulla" type="button" name="button"><strong>Annulla</strong></button>
+          </div>
+        </div>
+      </section>
+
+      <section id="biglietto" class="bg-yellow">
+        <h1>Il Tuo Biglietto</h1>
+
+        <h2>Dettaglio passeggeri</h2>
+        <div class="nome_passeggero">
+          <p>Nome Passeggero:<span id="bigl-nome"></span></p>
+        </div>
+        <div class="biglietto-stampato">
+          <p>Offerta <span id="bilg-offerta"></span></p>
+          <p>Carrozza <span id="bigl-carrozza"></span> </p>
+          <p>Codice cp <span id="bigl-codicecp"></span> </p>
+          <p>Costo <span id="bigl-costo"></span> </p>
+
+        </div>
+
+      </section>
+
+
+    </main>
+
+    <script src="js/script.js" charset="utf-8"></script>
+  </body>
+</html>

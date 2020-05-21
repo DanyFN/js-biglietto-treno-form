@@ -1,0 +1,73 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.bg-pink h1, #biglietto h1{
+  text-align: center;
+  padding: 40px 0px;
+  background-color: rgb(217, 12, 123);
+  color: white;
+}
+.dati{
+  display: table;
+  text-align: center;
+  padding: 40px 60px;
+  margin: 0 auto;
+}
+
+label{
+  color:rgb(217, 12, 123);
+}
+
+.float{
+  float: left;
+}
+
+.dati input, select{
+  display: block;
+}
+.bottoni{
+  /* display: inline; */
+  padding: 50px 20px;
+}
+.bottoni button{
+  margin: 10px;
+  padding: 10px 40px;
+  border-radius: 8px;
+  border: 1px solid rgb(217, 12, 123);
+}
+/* FINE SEZIONE */
+
+
+/* SEZIONE IL TUO BIGLIETTO */
+/* .il_tuo_biglietto{
+  display: none;
+} */
+#biglietto h2{
+  padding: 20px 0px;
+}
+.nome_passeggero{
+  width: 20%;
+  background-color: grey;
+  color: black;
+}
+.nome_passeggero p, .biglietto-stampato p{
+  font-size: 20px;
+}
+
+.biglietto-stampato p{
+  display: inline;
+  padding: 0px 30px;
+}
+
+
+.biglietto-stampato{
+  width: 80%;
+}
+.nome_passeggero, .biglietto-stampato  {
+  float: left;
+  border: 1px solid black;
+  height: 100px;
+
+}
