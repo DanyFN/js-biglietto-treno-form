@@ -41,9 +41,9 @@ label{
 
 
 /* SEZIONE IL TUO BIGLIETTO */
-/* .il_tuo_biglietto{
+.hidden{
   display: none;
-} */
+}
 #biglietto h2{
   padding: 20px 0px;
 }
