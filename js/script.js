@@ -25,13 +25,13 @@ buttonGenera.addEventListener('click',
     randomCp.innerHTML = Math.floor(Math.random() * 10);
     if (formEtaValue === 'maggiorenne') {
       offerta.innerHTML = "PREZZO NORMALE";
-      costo.innerHTML = prezzo;
+      costo.innerHTML = prezzo + " €";
     }else if (formEtaValue === 'minorenne') {
       offerta.innerHTML = "SCONTO SILVER";
-      costo.innerHTML = (prezzo - sconto20).toFixed(2);
+      costo.innerHTML = (prezzo - sconto20).toFixed(2) + " €";
     }else if (formEtaValue === 'over') {
       offerta.innerHTML = "SCONTO GOLD";
-      costo.innerHTML = (prezzo - sconto40).toFixed(2);
+      costo.innerHTML = (prezzo - sconto40).toFixed(2) + " €";
     }
   }
 );
